@@ -7,9 +7,9 @@ namespace BOPE.Entidades
 {
     public class Producto
     {
-        public int ID { get; set; }
-        public decimal Precio { get; set; }
-        public string nombre { get; set; }
+        public int ID { get; set; } // Identificador del Producto
+        public decimal Precio { get; set; }  // Precio del Producto
+        public string Nombre { get; set; } // Nombre del Producto
 
     }
 }
