@@ -7,9 +7,9 @@ namespace BOPE.Entidades
 {
     public class Usuario
     {
-        public int Id { get; set; }
-        public string Nombre { get; set; }
-        public int IdPerfil { get; set; }
+        public int Id { get; set; } //Identificador del usuario
+        public string Nombre { get; set; }  // Nombre del usuario
+        public int IdPerfil { get; set; }  //Identificador del Id Perfil 
 
     }
 }
